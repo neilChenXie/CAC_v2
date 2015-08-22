@@ -1,0 +1,22 @@
+{
+  "name": "chenaccount",
+  "version": "1.0.0",
+  "description": "server for chenaccount",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilChenXie/CAC_v2.git"
+  },
+  "author": "Chen Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilChenXie/CAC_v2/issues"
+  },
+  "homepage": "https://github.com/neilChenXie/CAC_v2#readme",
+  "dependencies": {
+    "mysql": "^2.9.0"
+  }
+}

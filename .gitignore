@@ -1,0 +1,5 @@
+_Store
+.*.swp
+*.[oa] *~
+nohup.out
+/node_modules/
