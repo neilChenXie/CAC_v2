@@ -21,10 +21,27 @@ This is a total new version **ChenACcount** based on:
 
 ###Node.js & npm
 
+```bash
+#check node.js and npm version
+node -v
+npm -v
+
+#fix npm permission problem
+sudo chown -R `whoami` /usr/local
+
+#install npm-cli
+npm install npm -g
+```
 
 ## Models
 
 ### Setup
+
+0. install project package.json
+
+    ```bash
+    npm install
+    ```
 
 1. config `models/dbconfig.js`
     ```bash
@@ -36,3 +53,5 @@ This is a total new version **ChenACcount** based on:
     ```bash
     npm run-script createdb
     ```
+
+## Problem Log
