@@ -33,6 +33,28 @@ sudo chown -R `whoami` /usr/local
 npm install npm -g
 ```
 
+## Controller
+
+### Login & Signup & Security
+
+1. login
+	
+	>check cookie, if exist go to dashboard, else login and save to cookie
+
+2. register
+
+	> after register, jump to login
+
+3. logout
+
+	> clear cookie and jump to login
+
+4. dashboard
+	
+	> check cookie, if valid go to dashboard, else go to login
+
+\*Extral: cross sit security
+
 ## Models
 
 ### Setup
